@@ -4,18 +4,10 @@ import  { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 export default class App extends Component {
   
-  handleSelect(index: any, last: any) {
-    console.log('Selected tab: ' + index + ', Last tab: ' + last);
-  }
-
+  
   render() {
     return (
-
-      <Tabs
-        onSelect={this.handleSelect}
-        selectedIndex={2}
-      >
-
+      <Tabs>
         <TabList>
           <Tab>Foo</Tab>
           <Tab>Bar</Tab>
@@ -36,3 +28,5 @@ export default class App extends Component {
     );
   }
 }
+
+render(<App/>, document.getElementById('root'));
