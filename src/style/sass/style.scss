@@ -1,0 +1,262 @@
+@import "color";
+
+/* Contact */
+
+.contact-form {
+  .form-list {
+    .form-list__item {
+      margin-bottom: 30px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .input,
+    .textarea {
+      border: 1px solid $color-lightGray;
+      display: block;
+      width: 90%;
+      padding: 10px 20px;
+      border-radius: 0;
+      margin-top: 15px;
+    }
+  }
+
+  .form-submit {
+    border: none;
+    width: 25%;
+    margin: 0 auto;
+  }
+}
+
+/* TOPIC */
+
+.MainContainer-topic {
+  border: solid 3px $color-white;
+  padding: 20px;
+  border-radius: 7px;
+
+  .topic-event {
+    display: flex;
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .topic-event__day {
+      margin-right: 33px;
+    }
+  }
+}
+
+/* WORK */
+
+.MainContainer-works {
+  .works-list {
+    border-bottom: 2px solid $color-white;
+    border-top: 2px solid $color-white;
+    padding: 20px 0;
+    overflow: hidden;
+
+    .scroll_lst {
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+      margin: 25px 0 25px;
+
+      .scroll_item {
+        display: inline-block;
+        width: 90px;
+        padding: 10px;
+        background-color: $color-lightGray;
+        margin-right: 15px;
+
+        &:first-child {
+          margin-left: 10px;
+        }
+
+        .scroll_item_inr {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .horizontal_scroll_wrap {
+    overflow-y: hidden;
+  }
+}
+
+/* lecture */
+
+.self-production {
+  width: 90%;
+  margin: 0 auto;
+
+  .self-production-title {
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    margin: 0 auto;
+    background-color: $color-darkRed;
+  }
+
+  .slider {
+    margin: 20px 0 50px;
+
+    .slider-content {
+      width: 75%;
+      list-style: none;
+      margin: 0 auto;
+      overflow: hidden;
+      padding: 15px;
+      background-color: $color-darkRed;
+
+      .slider-content-image {
+        margin-right: 10px;
+        width: 25%;
+        float: left;
+      }
+
+      .slider-content-detail {
+        font-size: 13px;
+        float: left;
+        width: 70%;
+
+        .slider-content-detail__status {
+          background-color: red;
+          padding: 5px 10px;
+          letter-spacing: 3px;
+        }
+
+        .slider-content-detail__category {
+          margin: 10px 0 0;
+          font-size: 11px;
+        }
+
+        .slider-content-detail__title {
+          font-size: 16px;
+          font-weight: bold;
+          margin: 10px 0;
+        }
+
+        .slider-content-detail__info {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}
+
+/* Rrquest */
+
+.MainContainer-about {
+  width: 100%;
+  font-size: 16px;
+  margin: 0 auto;
+  margin: 10px auto 50px;
+
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: bold;
+  }
+}
+
+.MainContainer-howtouse {
+  margin: 50px 0;
+
+  .list {
+    .list__item {
+      padding-left: 30px;
+      margin-bottom: 20px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .list__item__title {
+        color: $color-skyblue;
+        font-size: 21px;
+        margin-bottom: 5px;
+        position: relative;
+
+        &::before {
+          background-color: $color-black;
+          border-radius: 12px;
+          content: "\f00c";
+          color: $color-white;
+          font-size: 13px;
+          position: absolute;
+          left: -33px;
+          top: 3px;
+          padding: 5px;
+        }
+      }
+
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+/* Tab */
+.tabs {
+  -webkit-tap-highlight-color: transparent;
+
+  .tabs__tab-list {
+    border-bottom: 1px solid $color-lightGray;
+    margin: 0 0 10px;
+    padding: 0;
+
+    .tabs__tab {
+      display: inline-block;
+      border: 1px solid transparent;
+      border-bottom: none;
+      bottom: -1px;
+      position: relative;
+      list-style: none;
+      padding: 6px 12px;
+      cursor: pointer;
+
+      &--selected {
+        background-color: $color-white;
+        border-color: $color-lightGray;
+        color: black;
+        border-radius: 5px 5px 0 0;
+      }
+
+      &--disabled {
+        color: GrayText;
+        cursor: default;
+      }
+
+      &:focus {
+        box-shadow: 0 0 5px hsl(208, 99%, 50%);
+        border-color: hsl(208, 99%, 50%);
+        outline: none;
+
+        &::after {
+          content: "";
+          position: absolute;
+          height: 5px;
+          left: -4px;
+          right: -4px;
+          bottom: -5px;
+          background-color: $color-white;
+        }
+      }
+
+      &-panel {
+        display: none;
+      }
+
+      &-panel--selected {
+        display: block;
+      }
+    }
+  }
+}
