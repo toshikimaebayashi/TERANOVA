@@ -7,25 +7,27 @@ import Question_content from "./Question_content";
 import Request_content from "./Request_content";
 
 export default class App extends Component {
-  
+
   render() {
+    const List = [
+      { Tabname : 'TOPIC' },
+      { Tabname : '公演一覧' },
+      { Tabname : '製作依頼' }, 
+      { Tabname : 'お問い合わせ' },
+    ];
+
     return (
       <Tabs 
         className = "tabs">
         <TabList
           className = "tabs__tab-list">
-          <Tab
-            className = "tabs__tab"
-            selectedClassName ="tabs__tab--selected">TOPIC</Tab>
-          <Tab
-            className = "tabs__tab"
-            selectedClassName ="tabs__tab--selected">講演一覧</Tab>
-          <Tab
-            className = "tabs__tab"
-            selectedClassName ="tabs__tab--selected">製作依頼</Tab>
-          <Tab
-            className = "tabs__tab"
-            selectedClassName ="tabs__tab--selected">お問い合わせ</Tab>
+            {List.map((Item) => {
+              return (
+                <Tab
+                  className = "tabs__tab"
+                  selectedClassName ="tabs__tab--selected">{Item.Tabname}</Tab>
+              );
+            })}
         </TabList>
 
         <TabPanel>
