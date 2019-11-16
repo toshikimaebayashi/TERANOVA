@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Bottom_content extends React.Component {
+class BottomContent extends React.Component {
   
  render() {
     return (
@@ -19,4 +19,4 @@ class Bottom_content extends React.Component {
   }
 }
 
-export default Bottom_content;
+export default BottomContent;
