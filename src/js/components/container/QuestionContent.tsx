@@ -5,7 +5,7 @@ class QuestionContent extends React.Component {
  render() {
     return (
 
-       <div className="MainContainer-tab" id="question_content">
+       <div className="MainContainer-tab Question_content">
         <form method="post" name="form" className="contact-form">
           <h2 className="headline">お問い合わせ</h2>
           <div className="form-list">

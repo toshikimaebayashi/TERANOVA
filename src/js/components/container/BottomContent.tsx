@@ -5,7 +5,7 @@ class BottomContent extends React.Component {
  render() {
     return (
       <div>
-       <div className="bottom-btn">
+       <div className="MainContainer-bottombtn">
          <div className="btn-container float-left">
            <a className="act-button">制作依頼</a>
          </div>

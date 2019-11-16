@@ -4,7 +4,7 @@ class TopicContent extends React.Component {
 
  render() {
     return (
-      <div className="MainContainer-tab" id="topic_content">
+      <div className="MainContainer-tab Topic-content">
         <h2 className="headline">TOPIC</h2>
         <div className="MainContainer-topic common">
           <div className="topic-event">

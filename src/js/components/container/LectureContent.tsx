@@ -5,7 +5,7 @@ class LectureContent extends React.Component {
  render() {
     return (
 
-      <div className="MainContainer-tab" id="lecture_content">
+      <div className="MainContainer-tab Lecture-content">
         <div className="MainContainer-lecture-list">
           <h2 className="headline">公演一覧</h2>
           <div className="self-production">
