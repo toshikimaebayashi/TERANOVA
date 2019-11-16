@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import  { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import Topic_content from "./Topic_content";
-import Lecture_content from "./Lecture_content";
-import Question_content from "./Question_content";
-import Request_content from "./Request_content";
+import TopicContent from "./TopicContent";
+import LectureContent from "./LectureContent";
+import QuestionContent from "./QuestionContent";
+import RequestContent from "./RequestContent";
 
 export default class App extends Component {
 
