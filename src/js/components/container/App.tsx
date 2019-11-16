@@ -5,6 +5,7 @@ import TopicContent from "./TopicContent";
 import LectureContent from "./LectureContent";
 import QuestionContent from "./QuestionContent";
 import RequestContent from "./RequestContent";
+import BottomContent from "./BottomContent";
 
 export default class App extends Component {
 
@@ -31,18 +32,19 @@ export default class App extends Component {
         </TabList>
 
         <TabPanel>
-          <Topic_content />
+          <TopicContent />
         </TabPanel>
         <TabPanel>
-          <Lecture_content />
+          <LectureContent />
         </TabPanel>
         <TabPanel>
-          <Request_content />
+          <RequestContent />
         </TabPanel>
         <TabPanel>
-          <Question_content />
+          <QuestionContent />
         </TabPanel>
 
+        <BottomContent />
       </Tabs>
     );
   }
