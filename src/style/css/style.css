@@ -213,12 +213,12 @@
 }
 
 /* BottomBotton */
-.MainContainer-bottombtn {
+.MainContainer-bottom {
   display: flex;
   width: 100%;
   margin: 0 auto;
 }
-.MainContainer-bottombtn .act-button {
+.MainContainer-bottom .act-button {
   padding: 10px 20px;
   border: 3px solid;
 }
