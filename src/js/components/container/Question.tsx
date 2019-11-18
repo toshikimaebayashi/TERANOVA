@@ -37,4 +37,4 @@ class Question extends React.Component {
   }
 }
 
-export default QuestionContent;
+export default Question;

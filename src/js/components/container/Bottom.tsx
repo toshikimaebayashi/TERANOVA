@@ -18,4 +18,4 @@ class Bottom extends React.Component {
   }
 }
 
-export default BottomContent;
+export default Bottom;

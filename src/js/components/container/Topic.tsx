@@ -66,4 +66,4 @@ class Topic extends React.Component {
   }
 }
 
-export default TopicContent;
+export default Topic;

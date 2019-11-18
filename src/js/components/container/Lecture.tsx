@@ -47,4 +47,4 @@ class Lecture extends React.Component {
   }
 }
 
-export default LectureContent;
+export default Lecture;

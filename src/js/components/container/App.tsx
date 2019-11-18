@@ -10,23 +10,18 @@ import Bottom from "./Bottom";
 export default class App extends Component {
 
   render() {
-    const list = [
-      { Tabname : 'TOPIC' },
-      { Tabname : '公演一覧' },
-      { Tabname : '製作依頼' }, 
-      { Tabname : 'お問い合わせ' },
-    ];
+    const lists = ['TOPIC','公演一覧','製作依頼','お問い合わせ'];
 
     return (
       <Tabs 
         className = "tabs">
         <TabList
           className = "tabs__tab-list">
-            {List.map((Item) => {
+            {lists.map((Item) => {
               return (
                 <Tab
                   className = "tabs__tab"
-                  selectedClassName ="tabs__tab--selected">{Item.Tabname}</Tab>
+                  selectedClassName ="tabs__tab--selected">{Item}</Tab>
               );
             })}
         </TabList>

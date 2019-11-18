@@ -32,4 +32,4 @@ class Request extends React.Component {
   }
 }
 
-export default Request_content;
+export default Request;
