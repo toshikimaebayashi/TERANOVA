@@ -1,6 +1,6 @@
 import React from 'react';
 
-class TopicContent extends React.Component {
+class Topic extends React.Component {
 
  render() {
     return (

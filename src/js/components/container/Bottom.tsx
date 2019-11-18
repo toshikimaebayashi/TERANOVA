@@ -1,6 +1,6 @@
 import React from 'react';
 
-class BottomContent extends React.Component {
+class Bottom extends React.Component {
 
  render() {
     return (

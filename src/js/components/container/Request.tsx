@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Request_content extends React.Component {
+class Request extends React.Component {
 
  render() {
     return (

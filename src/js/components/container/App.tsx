@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import  { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import TopicContent from "./TopicContent";
-import LectureContent from "./LectureContent";
-import QuestionContent from "./QuestionContent";
-import RequestContent from "./RequestContent";
-import BottomContent from "./BottomContent";
+import Topic from "./Topic";
+import Lecture from "./Lecture";
+import Question from "./Question";
+import Request from "./Request";
+import Bottom from "./Bottom";
 
 export default class App extends Component {
 
@@ -32,19 +32,19 @@ export default class App extends Component {
         </TabList>
 
         <TabPanel>
-          <TopicContent />
+          <Topic />
         </TabPanel>
         <TabPanel>
-          <LectureContent />
+          <Lecture />
         </TabPanel>
         <TabPanel>
-          <RequestContent />
+          <Request />
         </TabPanel>
         <TabPanel>
-          <QuestionContent />
+          <Question />
         </TabPanel>
 
-        <BottomContent />
+        <Bottom />
       </Tabs>
     );
   }
