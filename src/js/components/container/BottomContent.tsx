@@ -14,7 +14,6 @@ class BottomContent extends React.Component {
          </div>
         </div>
       </div>
-
     );
   }
 }

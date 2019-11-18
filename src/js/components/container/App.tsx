@@ -10,7 +10,7 @@ import BottomContent from "./BottomContent";
 export default class App extends Component {
 
   render() {
-    const List = [
+    const list = [
       { Tabname : 'TOPIC' },
       { Tabname : '公演一覧' },
       { Tabname : '製作依頼' }, 
