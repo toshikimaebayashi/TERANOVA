@@ -5,7 +5,6 @@
   font-size: 18px;
   font-weight: bold;
 }
-
 .contact-form .form-list .input,
 .contact-form .form-list .textarea {
   border: 1px solid #ccc;
@@ -15,7 +14,6 @@
   border-radius: 0;
   margin-top: 15px;
 }
-
 .contact-form .form-submit {
   border: none;
   width: 25%;
@@ -28,16 +26,13 @@
   padding: 20px;
   border-radius: 7px;
 }
-
 .MainContainer-topic .topic-event {
   display: flex;
   margin-bottom: 10px;
 }
-
 .MainContainer-topic .topic-event:last-child {
   margin-bottom: 0;
 }
-
 .MainContainer-topic .topic-event .topic-event__day {
   margin-right: 33px;
 }
@@ -49,14 +44,12 @@
   padding: 20px 0;
   overflow: hidden;
 }
-
 .MainContainer-works .works-list .scroll_lst {
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
   margin: 25px 0 25px;
 }
-
 .MainContainer-works .works-list .scroll_lst .scroll_item {
   display: inline-block;
   width: 90px;
@@ -64,15 +57,12 @@
   background-color: #ccc;
   margin-right: 15px;
 }
-
 .MainContainer-works .works-list .scroll_lst .scroll_item:first-child {
   margin-left: 10px;
 }
-
 .MainContainer-works .works-list .scroll_lst .scroll_item .scroll_item_inr {
   display: block;
 }
-
 .MainContainer-works .horizontal_scroll_wrap {
   overflow-y: hidden;
 }
@@ -82,7 +72,6 @@
   width: 90%;
   margin: 0 auto;
 }
-
 .self-production .self-production-title {
   text-align: center;
   padding: 10px;
@@ -90,11 +79,9 @@
   margin: 0 auto;
   background-color: #636060;
 }
-
 .self-production .slider {
   margin: 20px 0 50px;
 }
-
 .self-production .slider .slider-content {
   width: 75%;
   list-style: none;
@@ -103,48 +90,41 @@
   padding: 15px;
   background-color: #636060;
 }
-
 .self-production .slider .slider-content .slider-content-image {
   margin-right: 10px;
   width: 25%;
   float: left;
 }
-
 .self-production .slider .slider-content .slider-content-detail {
   font-size: 13px;
   float: left;
   width: 70%;
 }
-
 .self-production .slider .slider-content .slider-content-detail .slider-content-detail__status {
   background-color: red;
   padding: 5px 10px;
   letter-spacing: 3px;
 }
-
 .self-production .slider .slider-content .slider-content-detail .slider-content-detail__category {
   margin: 10px 0 0;
   font-size: 11px;
 }
-
 .self-production .slider .slider-content .slider-content-detail .slider-content-detail__title {
   font-size: 16px;
   font-weight: bold;
   margin: 10px 0;
 }
-
 .self-production .slider .slider-content .slider-content-detail .slider-content-detail__info {
   font-size: 11px;
 }
 
-/* Rrquest */
+/* Request */
 .MainContainer-about {
   width: 100%;
   font-size: 16px;
   margin: 0 auto;
   margin: 10px auto 50px;
 }
-
 .MainContainer-about .title {
   text-align: center;
   margin-bottom: 20px;
@@ -155,23 +135,19 @@
 .MainContainer-howtouse {
   margin: 50px 0;
 }
-
 .MainContainer-howtouse .list .list__item {
   padding-left: 30px;
   margin-bottom: 20px;
 }
-
 .MainContainer-howtouse .list .list__item:last-child {
   margin-bottom: 0;
 }
-
 .MainContainer-howtouse .list .list__item .list__item__title {
   color: #0dd7ef;
   font-size: 21px;
   margin-bottom: 5px;
   position: relative;
 }
-
 .MainContainer-howtouse .list .list__item .list__item__title::before {
   background-color: #333;
   border-radius: 12px;
@@ -183,7 +159,6 @@
   top: 3px;
   padding: 5px;
 }
-
 .MainContainer-howtouse .list .list__item p {
   font-size: 13px;
 }
@@ -192,13 +167,11 @@
 .tabs {
   -webkit-tap-highlight-color: transparent;
 }
-
 .tabs .tabs__tab-list {
   border-bottom: 1px solid #ccc;
   margin: 0 0 10px;
   padding: 0;
 }
-
 .tabs .tabs__tab-list .tabs__tab {
   display: inline-block;
   border: 1px solid transparent;
@@ -209,25 +182,21 @@
   padding: 6px 12px;
   cursor: pointer;
 }
-
 .tabs .tabs__tab-list .tabs__tab--selected {
   background-color: #fff;
   border-color: #ccc;
   color: black;
   border-radius: 5px 5px 0 0;
 }
-
 .tabs .tabs__tab-list .tabs__tab--disabled {
   color: GrayText;
   cursor: default;
 }
-
 .tabs .tabs__tab-list .tabs__tab:focus {
   box-shadow: 0 0 5px #0188fe;
   border-color: #0188fe;
   outline: none;
 }
-
 .tabs .tabs__tab-list .tabs__tab:focus::after {
   content: "";
   position: absolute;
@@ -237,13 +206,20 @@
   bottom: -5px;
   background-color: #fff;
 }
-
 .tabs .tabs__tab-list .tabs__tab-panel {
   display: none;
 }
-
 .tabs .tabs__tab-list .tabs__tab-panel--selected {
   display: block;
 }
 
-/*# sourceMappingURL=style.css.map */
+/* BottomBotton */
+.MainContainer-bottombtn {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+.MainContainer-bottombtn .act-button {
+  padding: 10px 20px;
+  border: 3px solid;
+}
