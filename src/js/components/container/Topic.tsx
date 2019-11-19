@@ -33,28 +33,28 @@ class Topic extends React.Component {
               <li className="scroll_item">
                 <a href="" className="scroll_item_inr">
                   <div className="scroll_item_thum">
-                    <img src="images/TERANOVA_work1.jpg" />
+                    <img src="images/topic/img_scroll01.jpg" />
                   </div>
                 </a>
               </li>
               <li className="scroll_item">
                 <a href="" className="scroll_item_inr">
                   <div className="scroll_item_thum">
-                    <img src="images/TERANOVA_work1.jpg" />
+                    <img src="images/topic/img_scroll01.jpg" />
                   </div>
                 </a>
               </li>
               <li className="scroll_item">
                 <a href="" className="scroll_item_inr">
                   <div className="scroll_item_thum">
-                    <img src="images/TERANOVA_work1.jpg" />
+                    <img src="images/topic/img_scroll01.jpg" />
                   </div>
                 </a>
               </li>
               <li className="scroll_item">
                 <a href="" className="scroll_item_inr">
                   <div className="scroll_item_thum">
-                    <img src="images/TERANOVA_work1.jpg" />
+                    <img src="images/topic/img_scroll01.jpg" />
                   </div>
                 </a>
               </li>

@@ -30,7 +30,7 @@ class Question extends React.Component {
               <textarea name="content" className="textarea"></textarea>
             </div>
           </div>
-          <input type="image" src="images/submit.png" alt="送信する" className="form-submit"></input>
+          <input type="image" src="images/qustion/btn_submit.png" alt="送信する" className="form-submit"></input>
         </form>
       </div>
     );
