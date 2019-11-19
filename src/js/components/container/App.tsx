@@ -10,14 +10,16 @@ import Bottom from "./Bottom";
 export default class App extends Component {
 
   render() {
-    const lists = ['TOPIC','公演一覧','製作依頼','お問い合わせ'];
+    const panellists = ['TOPIC','公演一覧','製作依頼','お問い合わせ'];
+    
+    const tablists = [<Topic />, <Lecture />, <Request />, <Question />];
 
     return (
       <Tabs 
         className = "tabs">
         <TabList
           className = "tabs__tab-list">
-            {lists.map((Item) => {
+            {panellists.map((Item) => {
               return (
                 <Tab
                   className = "tabs__tab"
@@ -26,18 +28,11 @@ export default class App extends Component {
             })}
         </TabList>
 
-        <TabPanel>
-          <Topic />
-        </TabPanel>
-        <TabPanel>
-          <Lecture />
-        </TabPanel>
-        <TabPanel>
-          <Request />
-        </TabPanel>
-        <TabPanel>
-          <Question />
-        </TabPanel>
+         {tablists.map((Item) => {
+             return (
+               <TabPanel>{Item}</TabPanel>
+             );
+           })}
 
         <Bottom />
       </Tabs>
