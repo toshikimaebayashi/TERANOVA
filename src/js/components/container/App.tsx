@@ -32,7 +32,7 @@ export default class App extends Component {
              return (
                <TabPanel>{Item}</TabPanel>
              );
-           })}
+         })}
 
         <Bottom />
       </Tabs>
