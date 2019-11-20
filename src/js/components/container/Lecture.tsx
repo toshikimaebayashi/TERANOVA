@@ -13,7 +13,7 @@ class Lecture extends React.Component {
             <ul className="slider">
               <li className="slider-content">
                 <div className="slider-content-image">
-                  <figure className="image"><img src="images/TERANOVA_work1.jpg"></img></figure>
+                  <figure className="image"><img src="images/lecture/img01.jpg"></img></figure>
                 </div>
                 <div className="slider-content-detail">
                   <p className="slider-content-detail__status">開催中</p>
@@ -29,7 +29,7 @@ class Lecture extends React.Component {
             <ul className="slider">
               <li className="slider-content">
                 <div className="slider-content-image">
-                  <figure className="image"><img src="images/TERANOVA_work1.jpg"></img></figure>
+                  <figure className="image"><img src="images/lecture/img01.jpg"></img></figure>
                 </div>
                 <div className="slider-content-detail">
                   <p className="slider-content-detail__status">開催中</p>
