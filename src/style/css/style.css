@@ -246,13 +246,13 @@
 }
 
 /* BottomBotton */
-footer {
+.footer {
   display: flex;
   width: 100%;
   margin: 0 auto;
 }
 
-footer .act-button {
+.footer .act-button {
   padding: 10px 20px;
   border: 3px solid;
 }
