@@ -13,7 +13,7 @@ class Lecture extends React.Component {
             <ul className="production-slider">
               <li className="slider">
                 <figure className="image"><img src="images/lecture/img01.jpg"></img></figure>
-                <div className="detail">
+                <div className="slider-detail">
                   <p className="detail-status">開催中</p>
                   <p className="detail-category">体験型謎解きRPG「リビルド – 再構築– 」シリーズ1</p>
                   <p className="detail-title">序章:エニグマからの挑戦状</p>
