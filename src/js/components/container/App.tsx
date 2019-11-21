@@ -16,21 +16,23 @@ export default class App extends Component {
 
     return (
       <Tabs 
-        className = "tabs">
+        className = "wrapper">
         <TabList
-          className = "tabs__tab-list">
+          className = "header">
             {panellists.map((Item) => {
               return (
                 <Tab
-                  className = "tabs__tab"
-                  selectedClassName ="tabs__tab--selected">{Item}</Tab>
+                  className = "header-list"
+                  selectedClassName ="header-list--selected">{Item}</Tab>
               );
             })}
         </TabList>
 
          {tablists.map((Item) => {
              return (
-               <TabPanel>{Item}</TabPanel>
+               <TabPanel
+                 className = "main"
+                 selectedClassName = "main--selected" >{Item}</TabPanel>
              );
            })}
 
