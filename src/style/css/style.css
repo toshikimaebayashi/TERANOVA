@@ -5,7 +5,6 @@
   font-size: 18px;
   font-weight: bold;
 }
-
 .contact-form .form-list input,
 .contact-form .form-list textarea {
   border: 1px solid #ccc;
@@ -15,7 +14,6 @@
   border-radius: 0;
   margin-top: 15px;
 }
-
 .contact-form .form-submit {
   border: none;
   width: 25%;
@@ -28,16 +26,13 @@
   padding: 20px;
   border-radius: 7px;
 }
-
 .main-container-topic .topic {
   display: flex;
   margin-bottom: 10px;
 }
-
 .main-container-topic .topic:last-child {
   margin-bottom: 0;
 }
-
 .main-container-topic .topic .topic-day {
   margin-right: 33px;
 }
@@ -49,14 +44,12 @@
   padding: 20px 0;
   overflow: hidden;
 }
-
 .main-container-works .works .scroll {
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
   margin: 25px 0 25px;
 }
-
 .main-container-works .works .scroll .scroll-item {
   display: inline-block;
   width: 90px;
@@ -64,15 +57,12 @@
   background-color: #ccc;
   margin-right: 15px;
 }
-
 .main-container-works .works .scroll .scroll-item:first-child {
   margin-left: 10px;
 }
-
 .main-container-works .works .scroll .scroll-item .scroll-inr {
   display: block;
 }
-
 .main-container-works .horizontal_scroll_wrap {
   overflow-y: hidden;
 }
@@ -82,7 +72,6 @@
   width: 90%;
   margin: 0 auto;
 }
-
 .production .production-title {
   text-align: center;
   padding: 10px;
@@ -90,11 +79,9 @@
   margin: 0 auto;
   background-color: #636060;
 }
-
 .production .production-slider {
   margin: 20px 0 50px;
 }
-
 .production .production-slider .slider {
   width: 75%;
   list-style: none;
@@ -103,36 +90,30 @@
   padding: 15px;
   background-color: #636060;
 }
-
 .production .production-slider .slider .slider-image {
   margin-right: 10px;
   width: 25%;
   float: left;
 }
-
 .production .production-slider .slider .slider-detail {
   font-size: 13px;
   float: left;
   width: 70%;
 }
-
 .production .production-slider .slider .slider-detail .detail-status {
   background-color: red;
   padding: 5px 10px;
   letter-spacing: 3px;
 }
-
 .production .production-slider .slider .slider-detail .detail-category {
   margin: 10px 0 0;
   font-size: 11px;
 }
-
 .production .production-slider .slider .slider-detail .detail-title {
   font-size: 16px;
   font-weight: bold;
   margin: 10px 0;
 }
-
 .production .production-slider .slider .slider-detail .detail-info {
   font-size: 11px;
 }
@@ -143,7 +124,6 @@
   font-size: 16px;
   margin: 10px auto 50px;
 }
-
 .main-container-about .about-title {
   text-align: center;
   margin-bottom: 20px;
@@ -154,23 +134,19 @@
 .main-container-list {
   margin: 50px 0;
 }
-
 .main-container-list .list .list-item {
   padding-left: 30px;
   margin-bottom: 20px;
 }
-
 .main-container-list .list .list-item:last-child {
   margin-bottom: 0;
 }
-
 .main-container-list .list .list-item .list-title {
   color: #0dd7ef;
   font-size: 21px;
   margin-bottom: 5px;
   position: relative;
 }
-
 .main-container-list .list .list-item .list-title::before {
   background-color: #333;
   border-radius: 12px;
@@ -182,7 +158,6 @@
   top: 3px;
   padding: 5px;
 }
-
 .main-container-list .list .list-item p {
   font-size: 13px;
 }
@@ -191,13 +166,11 @@
 .wrapper {
   -webkit-tap-highlight-color: transparent;
 }
-
 .wrapper .header {
   border-bottom: 1px solid #ccc;
   margin: 0 0 10px;
   padding: 0;
 }
-
 .wrapper .header .header-list {
   display: inline-block;
   border: 1px solid transparent;
@@ -208,25 +181,21 @@
   padding: 6px 12px;
   cursor: pointer;
 }
-
 .wrapper .header .header-list--selected {
   background-color: #fff;
   border-color: #ccc;
   color: black;
   border-radius: 5px 5px 0 0;
 }
-
 .wrapper .header .header-list--disabled {
   color: GrayText;
   cursor: default;
 }
-
 .wrapper .header .header-list:focus {
   box-shadow: 0 0 5px #0188fe;
   border-color: #0188fe;
   outline: none;
 }
-
 .wrapper .header .header-list:focus::after {
   content: "";
   position: absolute;
@@ -236,11 +205,9 @@
   bottom: -5px;
   background-color: #fff;
 }
-
 .wrapper .header .header-list-panel {
   display: none;
 }
-
 .wrapper .header .header-list-panel--selected {
   display: block;
 }
@@ -251,8 +218,7 @@
   width: 100%;
   margin: 0 auto;
 }
-
-.footer .act-button {
+.footer .footer-btn {
   padding: 10px 20px;
   border: 3px solid;
 }
