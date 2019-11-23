@@ -28,34 +28,26 @@ class Topic extends React.Component {
         </div>
         <div className="main-container-works">
           <h2 className="headline">製作実績</h2>
-          <div className="works horizontal_scroll_wrap">
+          <div className="works">
             <ul className="scroll">
               <li className="scroll-item">
-                <a href="" className="scroll-inr">
-                  <div className="scroll-thum">
-                    <img src="images/topic/img_scroll01.jpg" />
-                  </div>
+                <a href="">
+                  <img src="images/topic/img_scroll01.jpg" />
                 </a>
               </li>
               <li className="scroll-item">
-                <a href="" className="scroll-inr">
-                  <div className="scroll-thum">
-                    <img src="images/topic/img_scroll01.jpg" />
-                  </div>
+                <a href="">
+                  <img src="images/topic/img_scroll01.jpg" />
                 </a>
               </li>
               <li className="scroll-item">
-                <a href="" className="scroll-inr">
-                  <div className="scroll-thum">
-                    <img src="images/topic/img_scroll01.jpg" />
-                  </div>
+                <a href="">
+                  <img src="images/topic/img_scroll01.jpg" />
                 </a>
               </li>
               <li className="scroll-item">
-                <a href="" className="scroll-inr">
-                  <div className="scroll-thum">
-                    <img src="images/topic/img_scroll01.jpg" />
-                  </div>
+                <a href="">
+                  <img src="images/topic/img_scroll01.jpg" />
                 </a>
               </li>
             </ul>

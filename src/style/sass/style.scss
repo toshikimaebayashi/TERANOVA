@@ -58,6 +58,7 @@
     border-top: 2px solid $color-white;
     padding: 20px 0;
     overflow: hidden;
+    overflow-y: hidden;
 
     .scroll {
       overflow-x: auto;
@@ -75,16 +76,8 @@
         &:first-child {
           margin-left: 10px;
         }
-
-        .scroll-inr {
-          display: block;
-        }
       }
     }
-  }
-
-  .horizontal_scroll_wrap {
-    overflow-y: hidden;
   }
 }
 

@@ -43,6 +43,7 @@
   border-top: 2px solid #fff;
   padding: 20px 0;
   overflow: hidden;
+  overflow-y: hidden;
 }
 .main-container-works .works .scroll {
   overflow-x: auto;
@@ -59,12 +60,6 @@
 }
 .main-container-works .works .scroll .scroll-item:first-child {
   margin-left: 10px;
-}
-.main-container-works .works .scroll .scroll-item .scroll-inr {
-  display: block;
-}
-.main-container-works .horizontal_scroll_wrap {
-  overflow-y: hidden;
 }
 
 /* lecture */
