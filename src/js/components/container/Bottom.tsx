@@ -4,7 +4,7 @@ class Bottom extends React.Component {
 
  render() {
     return (
-      <div class="footer">
+      <div className="footer">
         <div className="footer-container">
           <a className="footer-btn">制作依頼</a>
         </div>

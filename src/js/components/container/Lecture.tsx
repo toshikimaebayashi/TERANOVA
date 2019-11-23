@@ -26,8 +26,8 @@ class Lecture extends React.Component {
             <h3 className="production-title">受託制作</h3>
             <ul className="production-slider">
               <li className="slider">
-                <figure className="slider-image"><img src="images/lecture/img01.jpg"></img></figure>
-                <div className="slider-detail">
+                <figure className="image"><img src="images/lecture/img01.jpg"></img></figure>
+                <div className="detail">
                   <p className="detail-status">開催中</p>
                   <p className="detail-category">体験型謎解きRPG「リビルド – 再構築– 」シリーズ1</p>
                   <p className="detail-title">序章:エニグマからの挑戦状</p>

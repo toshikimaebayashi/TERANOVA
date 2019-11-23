@@ -90,31 +90,31 @@
   padding: 15px;
   background-color: #636060;
 }
-.production .production-slider .slider .slider-image {
+.production .production-slider .slider .image {
   margin-right: 10px;
   width: 25%;
   float: left;
 }
-.production .production-slider .slider .slider-detail {
+.production .production-slider .slider .detail {
   font-size: 13px;
   float: left;
   width: 70%;
 }
-.production .production-slider .slider .slider-detail .detail-status {
+.production .production-slider .slider .detail .detail-status {
   background-color: red;
   padding: 5px 10px;
   letter-spacing: 3px;
 }
-.production .production-slider .slider .slider-detail .detail-category {
+.production .production-slider .slider .detail .detail-category {
   margin: 10px 0 0;
   font-size: 11px;
 }
-.production .production-slider .slider .slider-detail .detail-title {
+.production .production-slider .slider .detail .detail-title {
   font-size: 16px;
   font-weight: bold;
   margin: 10px 0;
 }
-.production .production-slider .slider .slider-detail .detail-info {
+.production .production-slider .slider .detail .detail-info {
   font-size: 11px;
 }
 
