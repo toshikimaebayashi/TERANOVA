@@ -6,31 +6,31 @@ class Question extends React.Component {
     return (
 
        <div className="main-container">
-        <form method="post" name="form" className="form">
-          <h2 className="headline">お問い合わせ</h2>
-          <div className="list">
-            <div className="list-item">
-              <label>お名前</label>
-              <input type="text" name="name"></input>
-            </div>
-            <div className="list-item">
-              <label>メールアドレス</label>
-              <input type="text" name="email"></input>
-            </div>
-            <div className="list-item">
-              <label>電話番号</label>
-              <input type="text" name="tel"></input>
-            </div>
-            <div className="list-item">
-              <label>件名</label>
-              <input type="text" name="tel" className="input"></input>
-            </div>
-            <div className="list-item">
-              <label>本文</label>
-              <textarea name="content"></textarea>
-            </div>
-          </div>
-          <input type="image" src="images/qustion/btn_submit.png" alt="送信する" className="form-submit"></input>
+         <h2 className="headline">お問い合わせ</h2>
+         <form method="post" name="form" className="form">
+           <div className="list">
+             <div className="list-item">
+               <label>お名前</label>
+               <input type="text" name="name"></input>
+             </div>
+             <div className="list-item">
+               <label>メールアドレス</label>
+               <input type="text" name="email"></input>
+             </div>
+             <div className="list-item">
+               <label>電話番号</label>
+               <input type="text" name="tel"></input>
+             </div>
+             <div className="list-item">
+               <label>件名</label>
+               <input type="text" name="tel" className="input"></input>
+             </div>
+             <div className="list-item">
+               <label>本文</label>
+               <textarea name="content"></textarea>
+             </div>
+           </div>
+           <input type="image" src="images/qustion/btn_submit.png" alt="送信する" className="form-submit"></input>
         </form>
       </div>
     );
