@@ -74,10 +74,10 @@
   margin: 0 auto;
   background-color: #636060;
 }
-.production .production-slider {
+.production .sliderlist {
   margin: 20px 0 50px;
 }
-.production .production-slider .slider {
+.production .sliderlist .slider {
   width: 75%;
   list-style: none;
   margin: 0 auto;
@@ -85,31 +85,31 @@
   padding: 15px;
   background-color: #636060;
 }
-.production .production-slider .slider .image {
+.production .sliderlist .slider .image {
   margin-right: 10px;
   width: 25%;
   float: left;
 }
-.production .production-slider .slider .detail {
+.production .sliderlist .slider .detail {
   font-size: 13px;
   float: left;
   width: 70%;
 }
-.production .production-slider .slider .detail .detail-status {
+.production .sliderlist .slider .detail .detail-status {
   background-color: red;
   padding: 5px 10px;
   letter-spacing: 3px;
 }
-.production .production-slider .slider .detail .detail-category {
+.production .sliderlist .slider .detail .detail-category {
   margin: 10px 0 0;
   font-size: 11px;
 }
-.production .production-slider .slider .detail .detail-title {
+.production .sliderlist .slider .detail .detail-title {
   font-size: 16px;
   font-weight: bold;
   margin: 10px 0;
 }
-.production .production-slider .slider .detail .detail-info {
+.production .sliderlist .slider .detail .detail-info {
   font-size: 11px;
 }
 

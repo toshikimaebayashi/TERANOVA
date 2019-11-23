@@ -10,7 +10,7 @@ class Lecture extends React.Component {
         <div className="lecture">
           <div className="production">
             <h3 className="production-title">自社制作</h3>
-            <ul className="production-slider">
+            <ul className="sliderlist">
               <li className="slider">
                 <figure className="image"><img src="images/lecture/img01.jpg"></img></figure>
                 <div className="detail">
@@ -24,7 +24,7 @@ class Lecture extends React.Component {
           </div>
           <div className="production">
             <h3 className="production-title">受託制作</h3>
-            <ul className="production-slider">
+            <ul className="sliderlist">
               <li className="slider">
                 <figure className="image"><img src="images/lecture/img01.jpg"></img></figure>
                 <div className="detail">
