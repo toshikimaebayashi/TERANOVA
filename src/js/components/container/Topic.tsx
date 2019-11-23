@@ -9,15 +9,15 @@ class Topic extends React.Component {
         <div className="main-container-topic common">
           <div className="topic">
             <div className="topic-day">2018.08.01</div>
-            <div className="topic-details">リビルド特別公演 「ラブレター大捜査線」の 再演が8/24・25で決定!</div>
+            <div className="topic-detail">リビルド特別公演 「ラブレター大捜査線」の 再演が8/24・25で決定!</div>
           </div>
           <div className="topic">
             <div className="topic-day">2018.08.01</div>
-            <div className="topic-details">リビルド特別公演 「ラブレター大捜査線」の 再演が8/24・25で決定!</div>
+            <div className="topic-detail">リビルド特別公演 「ラブレター大捜査線」の 再演が8/24・25で決定!</div>
           </div>
           <div className="topic">
             <div className="topic-day">2018.08.01</div>
-            <div className="topic-details">リビルド特別公演 「ラブレター大捜査線」の 再演が8/24・25で決定!</div>
+            <div className="topic-detail">リビルド特別公演 「ラブレター大捜査線」の 再演が8/24・25で決定!</div>
           </div>
         </div>
         <h2 className="headline">「謎解きイベント」とは？</h2>
