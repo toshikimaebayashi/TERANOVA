@@ -5,12 +5,12 @@ class Request extends React.Component {
  render() {
     return (
 
-       <div className="main-container">
-         <div className="main-container-about">
+       <div className="container">
+         <div className="about">
            <p className="about-title">「謎解きイベント」とは？</p>
            <p>謎解きイベントとは、参加者が実際に物語の世 界に入り込み数々の謎を解き明かすことでストー リーを進める体験型のイベントです。 多様なテーマやメッセージを取り込んだコンテンツ を制作することができるため、様々な 企業や団体の広報・集客や研修などに 利用されています。</p>
          </div>
-         <div className="main-container-list explanation">
+         <div className="howtouse explanation">
            <ul className="list">
              <li className="list-item">
                <h3 className="list-title">広報プロモーションに</h3>

@@ -4,7 +4,7 @@
 
 .form {
   .list {
-    .form-item {
+    .list-item {
       margin-bottom: 30px;
       text-align: center;
       font-size: 18px;
@@ -31,12 +31,12 @@
 
 /* TOPIC */
 
-.main-container-topic {
+.topic {
   border: solid 3px $color-white;
   padding: 20px;
   border-radius: 7px;
 
-  .topic {
+  .news {
     display: flex;
     margin-bottom: 10px;
 
@@ -44,7 +44,7 @@
       margin-bottom: 0;
     }
 
-    .topic-day {
+    .news-day {
       margin-right: 33px;
     }
   }
@@ -52,34 +52,34 @@
 
 /* WORK */
 
-.main-container-works {
-  .works {
-    border-bottom: 2px solid $color-white;
-    border-top: 2px solid $color-white;
-    padding: 20px 0;
-    overflow: hidden;
+
+.works {
+  border-bottom: 2px solid $color-white;
+  border-top: 2px solid $color-white;
+  padding: 20px 0;
+  overflow: hidden;
+  overflow-y: hidden;
+
+  .scroll {
+    overflow-x: auto;
     overflow-y: hidden;
+    white-space: nowrap;
+    margin: 25px 0 25px;
 
-    .scroll {
-      overflow-x: auto;
-      overflow-y: hidden;
-      white-space: nowrap;
-      margin: 25px 0 25px;
+    .scroll-item {
+      display: inline-block;
+      width: 90px;
+      padding: 10px;
+      background-color: $color-lightGray;
+      margin-right: 15px;
 
-      .scroll-item {
-        display: inline-block;
-        width: 90px;
-        padding: 10px;
-        background-color: $color-lightGray;
-        margin-right: 15px;
-
-        &:first-child {
-          margin-left: 10px;
-        }
+      &:first-child {
+        margin-left: 10px;
       }
     }
   }
 }
+
 
 /* lecture */
 
@@ -144,7 +144,7 @@
 
 /* Request */
 
-.main-container-about {
+.about {
   width: 100%;
   font-size: 16px;
   margin: 10px auto 50px;
@@ -157,7 +157,7 @@
   }
 }
 
-.main-container-list {
+.howtouse {
   margin: 50px 0;
 
   .list {
