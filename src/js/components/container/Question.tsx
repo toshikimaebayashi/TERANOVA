@@ -6,7 +6,7 @@ class Question extends React.Component {
     return (
 
        <div className="container">
-         <h2 className="headline">お問い合わせ</h2>
+         <h2 className="container-headline">お問い合わせ</h2>
          <form method="post" name="form" className="form">
            <div className="list">
              <div className="list-item">

@@ -6,7 +6,7 @@ class Lecture extends React.Component {
     return (
 
       <div className="container">
-        <h2 className="headline">公演一覧</h2>
+        <h2 className="container-headline">公演一覧</h2>
         <div className="lecture">
           <div className="production">
             <h3 className="production-title">自社制作</h3>
