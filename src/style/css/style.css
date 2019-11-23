@@ -1,12 +1,12 @@
 /* Contact */
-.contact-form .form-list .form-item {
+.form .list .form-item {
   margin-bottom: 30px;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
 }
-.contact-form .form-list input,
-.contact-form .form-list textarea {
+.form .list input,
+.form .list textarea {
   border: 1px solid #ccc;
   display: block;
   width: 90%;
@@ -14,7 +14,7 @@
   border-radius: 0;
   margin-top: 15px;
 }
-.contact-form .form-submit {
+.form .form-submit {
   border: none;
   width: 25%;
   margin: 0 auto;
