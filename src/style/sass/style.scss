@@ -2,9 +2,9 @@
 
 /* Contact */
 
-.form {
-  .list {
-    .list-item {
+.form-container {
+  .form-list {
+    .form-item {
       margin-bottom: 30px;
       text-align: center;
       font-size: 18px;
@@ -22,7 +22,7 @@
     }
   }
 
-  .form-submit {
+  .formSubmit {
     border: none;
     width: 25%;
     margin: 0 auto;
@@ -31,12 +31,12 @@
 
 /* TOPIC */
 
-.topic {
+.topic-container {
   border: solid 3px $color-white;
   padding: 20px;
   border-radius: 7px;
 
-  .news {
+  .topic-news {
     display: flex;
     margin-bottom: 10px;
 
@@ -44,7 +44,7 @@
       margin-bottom: 0;
     }
 
-    .news-day {
+    .newsDay {
       margin-right: 33px;
     }
   }
@@ -52,15 +52,14 @@
 
 /* WORK */
 
-
-.works {
+.works-container {
   border-bottom: 2px solid $color-white;
   border-top: 2px solid $color-white;
   padding: 20px 0;
   overflow: hidden;
   overflow-y: hidden;
 
-  .scroll {
+  .scroll-list {
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
@@ -80,14 +79,13 @@
   }
 }
 
-
 /* lecture */
 
-.production {
+.product-list {
   width: 90%;
   margin: 0 auto;
 
-  .production-title {
+  .productTitle {
     text-align: center;
     padding: 10px;
     width: 100px;
@@ -95,10 +93,10 @@
     background-color: $color-darkRed;
   }
 
-  .sliderlist {
+  .slider-list {
     margin: 20px 0 50px;
 
-    .slider {
+    .product-container {
       width: 75%;
       list-style: none;
       margin: 0 auto;
@@ -112,29 +110,29 @@
         float: left;
       }
 
-      .detail {
+      .product-detail {
         font-size: 13px;
         float: left;
         width: 70%;
 
-        .detail-status {
+        .productStatus {
           background-color: red;
           padding: 5px 10px;
           letter-spacing: 3px;
         }
 
-        .detail-category {
+        .productCategory {
           margin: 10px 0 0;
           font-size: 11px;
         }
 
-        .detail-title {
+        .productTitle {
           font-size: 16px;
           font-weight: bold;
           margin: 10px 0;
         }
 
-        .detail-info {
+        .productInfo {
           font-size: 11px;
         }
       }
@@ -144,12 +142,11 @@
 
 /* Request */
 
-.about {
-  width: 100%;
+.about-container {
   font-size: 16px;
   margin: 10px auto 50px;
 
-  .about-title {
+  .aboutTitle {
     text-align: center;
     margin-bottom: 20px;
     font-size: 21px;
@@ -157,19 +154,20 @@
   }
 }
 
-.howtouse {
+.howToUse-container {
   margin: 50px 0;
 
-  .list {
+  .list-box {
     .list-item {
       padding-left: 30px;
       margin-bottom: 20px;
+      font-size: 13px;
 
       &:last-child {
         margin-bottom: 0;
       }
 
-      .list-title {
+      .listTitle {
         color: $color-skyblue;
         font-size: 21px;
         margin-bottom: 5px;
@@ -187,24 +185,22 @@
           padding: 5px;
         }
       }
-
-      p {
-        font-size: 13px;
-      }
     }
   }
 }
 
 /* Tab */
-.wrapper {
-  -webkit-tap-highlight-color: transparent;
 
-  .header {
+.tabs {
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+
+  .tablist {
     border-bottom: 1px solid $color-lightGray;
     margin: 0 0 10px;
     padding: 0;
 
-    .header-list {
+    .tab {
       display: inline-block;
       border: 1px solid transparent;
       border-bottom: none;
@@ -214,14 +210,14 @@
       padding: 6px 12px;
       cursor: pointer;
 
-      &--selected {
+      &.-selected {
         background-color: $color-white;
         border-color: $color-lightGray;
         color: black;
         border-radius: 5px 5px 0 0;
       }
 
-      &--disabled {
+      &.-disabled {
         color: GrayText;
         cursor: default;
       }
@@ -244,23 +240,26 @@
 
       &-panel {
         display: none;
-      }
 
-      &-panel--selected {
-        display: block;
+        &.-selected {
+          display: block;
+          padding: 30px 10px 0;
+          clear: both;
+          overflow: hidden;
+        }
       }
     }
   }
 }
 
-/* BottomBotton */
+/* BottomButton */
 
-.footer {
+.bottom {
   display: flex;
   width: 100%;
   margin: 0 auto;
 
-  .footer-btn {
+  .bottomBtn {
     padding: 10px 20px;
     border: 3px solid;
   }

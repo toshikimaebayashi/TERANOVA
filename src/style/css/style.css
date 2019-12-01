@@ -1,12 +1,12 @@
 /* Contact */
-.form .list .list-item {
+.form-container .form-list .form-item {
   margin-bottom: 30px;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
 }
-.form .list input,
-.form .list textarea {
+.form-container .form-list input,
+.form-container .form-list textarea {
   border: 1px solid #ccc;
   display: block;
   width: 90%;
@@ -14,70 +14,70 @@
   border-radius: 0;
   margin-top: 15px;
 }
-.form .form-submit {
+.form-container .formSubmit {
   border: none;
   width: 25%;
   margin: 0 auto;
 }
 
 /* TOPIC */
-.topic {
+.topic-container {
   border: solid 3px #fff;
   padding: 20px;
   border-radius: 7px;
 }
-.topic .news {
+.topic-container .topic-news {
   display: flex;
   margin-bottom: 10px;
 }
-.topic .news:last-child {
+.topic-container .topic-news:last-child {
   margin-bottom: 0;
 }
-.topic .news .news-day {
+.topic-container .topic-news .newsDay {
   margin-right: 33px;
 }
 
 /* WORK */
-.works {
+.works-container {
   border-bottom: 2px solid #fff;
   border-top: 2px solid #fff;
   padding: 20px 0;
   overflow: hidden;
   overflow-y: hidden;
 }
-.works .scroll {
+.works-container .scroll-list {
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
   margin: 25px 0 25px;
 }
-.works .scroll .scroll-item {
+.works-container .scroll-list .scroll-item {
   display: inline-block;
   width: 90px;
   padding: 10px;
   background-color: #ccc;
   margin-right: 15px;
 }
-.works .scroll .scroll-item:first-child {
+.works-container .scroll-list .scroll-item:first-child {
   margin-left: 10px;
 }
 
 /* lecture */
-.production {
+.product-list {
   width: 90%;
   margin: 0 auto;
 }
-.production .production-title {
+.product-list .productTitle {
   text-align: center;
   padding: 10px;
   width: 100px;
   margin: 0 auto;
   background-color: #636060;
 }
-.production .sliderlist {
+.product-list .slider-list {
   margin: 20px 0 50px;
 }
-.production .sliderlist .slider {
+.product-list .slider-list .product-container {
   width: 75%;
   list-style: none;
   margin: 0 auto;
@@ -85,64 +85,64 @@
   padding: 15px;
   background-color: #636060;
 }
-.production .sliderlist .slider .image {
+.product-list .slider-list .product-container .image {
   margin-right: 10px;
   width: 25%;
   float: left;
 }
-.production .sliderlist .slider .detail {
+.product-list .slider-list .product-container .product-detail {
   font-size: 13px;
   float: left;
   width: 70%;
 }
-.production .sliderlist .slider .detail .detail-status {
+.product-list .slider-list .product-container .product-detail .productStatus {
   background-color: red;
   padding: 5px 10px;
   letter-spacing: 3px;
 }
-.production .sliderlist .slider .detail .detail-category {
+.product-list .slider-list .product-container .product-detail .productCategory {
   margin: 10px 0 0;
   font-size: 11px;
 }
-.production .sliderlist .slider .detail .detail-title {
+.product-list .slider-list .product-container .product-detail .productTitle {
   font-size: 16px;
   font-weight: bold;
   margin: 10px 0;
 }
-.production .sliderlist .slider .detail .detail-info {
+.product-list .slider-list .product-container .product-detail .productInfo {
   font-size: 11px;
 }
 
 /* Request */
-.about {
-  width: 100%;
+.about-container {
   font-size: 16px;
   margin: 10px auto 50px;
 }
-.about .about-title {
+.about-container .aboutTitle {
   text-align: center;
   margin-bottom: 20px;
   font-size: 21px;
   font-weight: bold;
 }
 
-.howtouse {
+.howToUse-container {
   margin: 50px 0;
 }
-.howtouse .list .list-item {
+.howToUse-container .list-box .list-item {
   padding-left: 30px;
   margin-bottom: 20px;
+  font-size: 13px;
 }
-.howtouse .list .list-item:last-child {
+.howToUse-container .list-box .list-item:last-child {
   margin-bottom: 0;
 }
-.howtouse .list .list-item .list-title {
+.howToUse-container .list-box .list-item .listTitle {
   color: #0dd7ef;
   font-size: 21px;
   margin-bottom: 5px;
   position: relative;
 }
-.howtouse .list .list-item .list-title::before {
+.howToUse-container .list-box .list-item .listTitle::before {
   background-color: #333;
   border-radius: 12px;
   content: "\f00c";
@@ -153,20 +153,18 @@
   top: 3px;
   padding: 5px;
 }
-.howtouse .list .list-item p {
-  font-size: 13px;
-}
 
 /* Tab */
-.wrapper {
+.tabs {
   -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
 }
-.wrapper .header {
+.tabs .tablist {
   border-bottom: 1px solid #ccc;
   margin: 0 0 10px;
   padding: 0;
 }
-.wrapper .header .header-list {
+.tabs .tablist .tab {
   display: inline-block;
   border: 1px solid transparent;
   border-bottom: none;
@@ -176,22 +174,22 @@
   padding: 6px 12px;
   cursor: pointer;
 }
-.wrapper .header .header-list--selected {
+.tabs .tablist .tab.-selected {
   background-color: #fff;
   border-color: #ccc;
   color: black;
   border-radius: 5px 5px 0 0;
 }
-.wrapper .header .header-list--disabled {
+.tabs .tablist .tab.-disabled {
   color: GrayText;
   cursor: default;
 }
-.wrapper .header .header-list:focus {
+.tabs .tablist .tab:focus {
   box-shadow: 0 0 5px #0188fe;
   border-color: #0188fe;
   outline: none;
 }
-.wrapper .header .header-list:focus::after {
+.tabs .tablist .tab:focus::after {
   content: "";
   position: absolute;
   height: 5px;
@@ -200,20 +198,23 @@
   bottom: -5px;
   background-color: #fff;
 }
-.wrapper .header .header-list-panel {
+.tabs .tablist .tab-panel {
   display: none;
 }
-.wrapper .header .header-list-panel--selected {
+.tabs .tablist .tab-panel.-selected {
   display: block;
+  padding: 30px 10px 0;
+  clear: both;
+  overflow: hidden;
 }
 
-/* BottomBotton */
-.footer {
+/* BottomButton */
+.bottom {
   display: flex;
   width: 100%;
   margin: 0 auto;
 }
-.footer .footer-btn {
+.bottom .bottomBtn {
   padding: 10px 20px;
   border: 3px solid;
 }

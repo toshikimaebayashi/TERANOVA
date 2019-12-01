@@ -32,7 +32,7 @@ p {
   margin: 0 auto;
 }
 
-.container-headline {
+.headline {
   text-align: center;
   font-size: 24px;
   margin-bottom: 10px;
@@ -54,17 +54,15 @@ img {
   vertical-align: middle;
 }
 
-.container {
-  padding: 30px 10px 0;
-  clear: both;
-  overflow: hidden;
+.mt10 {
+  margin-top: 10px;
 }
 
-.common {
-  margin: 10px 0 50px;
+.mb50 {
+  margin-bottom: 50px;
 }
 
-.explanation {
+.explainBlock {
   padding: 20px;
   font-weight: bold;
   color: #333;
