@@ -2,17 +2,17 @@
 
 /* Contact */
 
-.contact-form {
+.form-container {
   .form-list {
-    .form-list__item {
+    .form-item {
       margin-bottom: 30px;
       text-align: center;
       font-size: 18px;
       font-weight: bold;
     }
 
-    .input,
-    .textarea {
+    input,
+    textarea {
       border: 1px solid $color-lightGray;
       display: block;
       width: 90%;
@@ -22,7 +22,7 @@
     }
   }
 
-  .form-submit {
+  .formSubmit {
     border: none;
     width: 25%;
     margin: 0 auto;
@@ -31,12 +31,12 @@
 
 /* TOPIC */
 
-.MainContainer-topic {
+.topic-container {
   border: solid 3px $color-white;
   padding: 20px;
   border-radius: 7px;
 
-  .topic-event {
+  .topic-news {
     display: flex;
     margin-bottom: 10px;
 
@@ -44,7 +44,7 @@
       margin-bottom: 0;
     }
 
-    .topic-event__day {
+    .newsDay {
       margin-right: 33px;
     }
   }
@@ -52,49 +52,40 @@
 
 /* WORK */
 
-.MainContainer-works {
-  .works-list {
-    border-bottom: 2px solid $color-white;
-    border-top: 2px solid $color-white;
-    padding: 20px 0;
-    overflow: hidden;
+.works-container {
+  border-bottom: 2px solid $color-white;
+  border-top: 2px solid $color-white;
+  padding: 20px 0;
+  overflow: hidden;
+  overflow-y: hidden;
 
-    .scroll_lst {
-      overflow-x: auto;
-      overflow-y: hidden;
-      white-space: nowrap;
-      margin: 25px 0 25px;
+  .scroll-list {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin: 25px 0 25px;
 
-      .scroll_item {
-        display: inline-block;
-        width: 90px;
-        padding: 10px;
-        background-color: $color-lightGray;
-        margin-right: 15px;
+    .scroll-item {
+      display: inline-block;
+      width: 90px;
+      padding: 10px;
+      background-color: $color-lightGray;
+      margin-right: 15px;
 
-        &:first-child {
-          margin-left: 10px;
-        }
-
-        .scroll_item_inr {
-          display: block;
-        }
+      &:first-child {
+        margin-left: 10px;
       }
     }
-  }
-
-  .horizontal_scroll_wrap {
-    overflow-y: hidden;
   }
 }
 
 /* lecture */
 
-.self-production {
+.product-list {
   width: 90%;
   margin: 0 auto;
 
-  .self-production-title {
+  .productTitle {
     text-align: center;
     padding: 10px;
     width: 100px;
@@ -102,10 +93,10 @@
     background-color: $color-darkRed;
   }
 
-  .slider {
+  .slider-list {
     margin: 20px 0 50px;
 
-    .slider-content {
+    .product-container {
       width: 75%;
       list-style: none;
       margin: 0 auto;
@@ -113,35 +104,35 @@
       padding: 15px;
       background-color: $color-darkRed;
 
-      .slider-content-image {
+      .image {
         margin-right: 10px;
         width: 25%;
         float: left;
       }
 
-      .slider-content-detail {
+      .product-detail {
         font-size: 13px;
         float: left;
         width: 70%;
 
-        .slider-content-detail__status {
+        .productStatus {
           background-color: red;
           padding: 5px 10px;
           letter-spacing: 3px;
         }
 
-        .slider-content-detail__category {
+        .productCategory {
           margin: 10px 0 0;
           font-size: 11px;
         }
 
-        .slider-content-detail__title {
+        .productTitle {
           font-size: 16px;
           font-weight: bold;
           margin: 10px 0;
         }
 
-        .slider-content-detail__info {
+        .productInfo {
           font-size: 11px;
         }
       }
@@ -151,12 +142,11 @@
 
 /* Request */
 
-.MainContainer-about {
-  width: 100%;
+.about-container {
   font-size: 16px;
   margin: 10px auto 50px;
 
-  .title {
+  .aboutTitle {
     text-align: center;
     margin-bottom: 20px;
     font-size: 21px;
@@ -164,19 +154,20 @@
   }
 }
 
-.MainContainer-howtouse {
+.howToUse-container {
   margin: 50px 0;
 
-  .list {
-    .list__item {
+  .list-box {
+    .list-item {
       padding-left: 30px;
       margin-bottom: 20px;
+      font-size: 13px;
 
       &:last-child {
         margin-bottom: 0;
       }
 
-      .list__item__title {
+      .listTitle {
         color: $color-skyblue;
         font-size: 21px;
         margin-bottom: 5px;
@@ -194,24 +185,22 @@
           padding: 5px;
         }
       }
-
-      p {
-        font-size: 13px;
-      }
     }
   }
 }
 
 /* Tab */
+
 .tabs {
   -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
 
-  .tabs__tab-list {
+  .tablist {
     border-bottom: 1px solid $color-lightGray;
     margin: 0 0 10px;
     padding: 0;
 
-    .tabs__tab {
+    .tab {
       display: inline-block;
       border: 1px solid transparent;
       border-bottom: none;
@@ -221,14 +210,14 @@
       padding: 6px 12px;
       cursor: pointer;
 
-      &--selected {
+      &.-selected {
         background-color: $color-white;
         border-color: $color-lightGray;
         color: black;
         border-radius: 5px 5px 0 0;
       }
 
-      &--disabled {
+      &.-disabled {
         color: GrayText;
         cursor: default;
       }
@@ -251,23 +240,26 @@
 
       &-panel {
         display: none;
-      }
 
-      &-panel--selected {
-        display: block;
+        &.-selected {
+          display: block;
+          padding: 30px 10px 0;
+          clear: both;
+          overflow: hidden;
+        }
       }
     }
   }
 }
 
-/* BottomBotton */
+/* BottomButton */
 
-.MainContainer-bottom {
+.bottom {
   display: flex;
   width: 100%;
   margin: 0 auto;
 
-  .act-button {
+  .bottomBtn {
     padding: 10px 20px;
     border: 3px solid;
   }

@@ -1,12 +1,12 @@
 /* Contact */
-.contact-form .form-list .form-list__item {
+.form-container .form-list .form-item {
   margin-bottom: 30px;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
 }
-.contact-form .form-list .input,
-.contact-form .form-list .textarea {
+.form-container .form-list input,
+.form-container .form-list textarea {
   border: 1px solid #ccc;
   display: block;
   width: 90%;
@@ -14,75 +14,70 @@
   border-radius: 0;
   margin-top: 15px;
 }
-.contact-form .form-submit {
+.form-container .formSubmit {
   border: none;
   width: 25%;
   margin: 0 auto;
 }
 
 /* TOPIC */
-.MainContainer-topic {
+.topic-container {
   border: solid 3px #fff;
   padding: 20px;
   border-radius: 7px;
 }
-.MainContainer-topic .topic-event {
+.topic-container .topic-news {
   display: flex;
   margin-bottom: 10px;
 }
-.MainContainer-topic .topic-event:last-child {
+.topic-container .topic-news:last-child {
   margin-bottom: 0;
 }
-.MainContainer-topic .topic-event .topic-event__day {
+.topic-container .topic-news .newsDay {
   margin-right: 33px;
 }
 
 /* WORK */
-.MainContainer-works .works-list {
+.works-container {
   border-bottom: 2px solid #fff;
   border-top: 2px solid #fff;
   padding: 20px 0;
   overflow: hidden;
+  overflow-y: hidden;
 }
-.MainContainer-works .works-list .scroll_lst {
+.works-container .scroll-list {
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
   margin: 25px 0 25px;
 }
-.MainContainer-works .works-list .scroll_lst .scroll_item {
+.works-container .scroll-list .scroll-item {
   display: inline-block;
   width: 90px;
   padding: 10px;
   background-color: #ccc;
   margin-right: 15px;
 }
-.MainContainer-works .works-list .scroll_lst .scroll_item:first-child {
+.works-container .scroll-list .scroll-item:first-child {
   margin-left: 10px;
-}
-.MainContainer-works .works-list .scroll_lst .scroll_item .scroll_item_inr {
-  display: block;
-}
-.MainContainer-works .horizontal_scroll_wrap {
-  overflow-y: hidden;
 }
 
 /* lecture */
-.self-production {
+.product-list {
   width: 90%;
   margin: 0 auto;
 }
-.self-production .self-production-title {
+.product-list .productTitle {
   text-align: center;
   padding: 10px;
   width: 100px;
   margin: 0 auto;
   background-color: #636060;
 }
-.self-production .slider {
+.product-list .slider-list {
   margin: 20px 0 50px;
 }
-.self-production .slider .slider-content {
+.product-list .slider-list .product-container {
   width: 75%;
   list-style: none;
   margin: 0 auto;
@@ -90,64 +85,64 @@
   padding: 15px;
   background-color: #636060;
 }
-.self-production .slider .slider-content .slider-content-image {
+.product-list .slider-list .product-container .image {
   margin-right: 10px;
   width: 25%;
   float: left;
 }
-.self-production .slider .slider-content .slider-content-detail {
+.product-list .slider-list .product-container .product-detail {
   font-size: 13px;
   float: left;
   width: 70%;
 }
-.self-production .slider .slider-content .slider-content-detail .slider-content-detail__status {
+.product-list .slider-list .product-container .product-detail .productStatus {
   background-color: red;
   padding: 5px 10px;
   letter-spacing: 3px;
 }
-.self-production .slider .slider-content .slider-content-detail .slider-content-detail__category {
+.product-list .slider-list .product-container .product-detail .productCategory {
   margin: 10px 0 0;
   font-size: 11px;
 }
-.self-production .slider .slider-content .slider-content-detail .slider-content-detail__title {
+.product-list .slider-list .product-container .product-detail .productTitle {
   font-size: 16px;
   font-weight: bold;
   margin: 10px 0;
 }
-.self-production .slider .slider-content .slider-content-detail .slider-content-detail__info {
+.product-list .slider-list .product-container .product-detail .productInfo {
   font-size: 11px;
 }
 
 /* Request */
-.MainContainer-about {
-  width: 100%;
+.about-container {
   font-size: 16px;
   margin: 10px auto 50px;
 }
-.MainContainer-about .title {
+.about-container .aboutTitle {
   text-align: center;
   margin-bottom: 20px;
   font-size: 21px;
   font-weight: bold;
 }
 
-.MainContainer-howtouse {
+.howToUse-container {
   margin: 50px 0;
 }
-.MainContainer-howtouse .list .list__item {
+.howToUse-container .list-box .list-item {
   padding-left: 30px;
   margin-bottom: 20px;
+  font-size: 13px;
 }
-.MainContainer-howtouse .list .list__item:last-child {
+.howToUse-container .list-box .list-item:last-child {
   margin-bottom: 0;
 }
-.MainContainer-howtouse .list .list__item .list__item__title {
+.howToUse-container .list-box .list-item .listTitle {
   color: #0dd7ef;
   font-size: 21px;
   margin-bottom: 5px;
   position: relative;
 }
-.MainContainer-howtouse .list .list__item .list__item__title::before {
+.howToUse-container .list-box .list-item .listTitle::before {
   background-color: #333;
   border-radius: 12px;
   content: "\f00c";
@@ -158,20 +153,18 @@
   top: 3px;
   padding: 5px;
 }
-.MainContainer-howtouse .list .list__item p {
-  font-size: 13px;
-}
 
 /* Tab */
 .tabs {
   -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
 }
-.tabs .tabs__tab-list {
+.tabs .tablist {
   border-bottom: 1px solid #ccc;
   margin: 0 0 10px;
   padding: 0;
 }
-.tabs .tabs__tab-list .tabs__tab {
+.tabs .tablist .tab {
   display: inline-block;
   border: 1px solid transparent;
   border-bottom: none;
@@ -181,22 +174,22 @@
   padding: 6px 12px;
   cursor: pointer;
 }
-.tabs .tabs__tab-list .tabs__tab--selected {
+.tabs .tablist .tab.-selected {
   background-color: #fff;
   border-color: #ccc;
   color: black;
   border-radius: 5px 5px 0 0;
 }
-.tabs .tabs__tab-list .tabs__tab--disabled {
+.tabs .tablist .tab.-disabled {
   color: GrayText;
   cursor: default;
 }
-.tabs .tabs__tab-list .tabs__tab:focus {
+.tabs .tablist .tab:focus {
   box-shadow: 0 0 5px #0188fe;
   border-color: #0188fe;
   outline: none;
 }
-.tabs .tabs__tab-list .tabs__tab:focus::after {
+.tabs .tablist .tab:focus::after {
   content: "";
   position: absolute;
   height: 5px;
@@ -205,20 +198,23 @@
   bottom: -5px;
   background-color: #fff;
 }
-.tabs .tabs__tab-list .tabs__tab-panel {
+.tabs .tablist .tab-panel {
   display: none;
 }
-.tabs .tabs__tab-list .tabs__tab-panel--selected {
+.tabs .tablist .tab-panel.-selected {
   display: block;
+  padding: 30px 10px 0;
+  clear: both;
+  overflow: hidden;
 }
 
-/* BottomBotton */
-.MainContainer-bottom {
+/* BottomButton */
+.bottom {
   display: flex;
   width: 100%;
   margin: 0 auto;
 }
-.MainContainer-bottom .act-button {
+.bottom .bottomBtn {
   padding: 10px 20px;
   border: 3px solid;
 }
