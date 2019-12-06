@@ -1,0 +1,32 @@
+@import "../../../extention/color";
+
+/* Questionコンポーネントの独自のスタイル */
+
+.Question {
+  .form-container {
+    .form-list {
+      .form-item {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      input,
+      textarea {
+        border: 1px solid $color-lightGray;
+        display: block;
+        width: 90%;
+        padding: 10px 20px;
+        border-radius: 0;
+        margin-top: 15px;
+      }
+    }
+
+    .formSubmit {
+      border: none;
+      width: 25%;
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@import "../../../extention/color";
+
+/* Lectureコンポーネント独自のスタイル */
+
+.Lecture {
+  .product-list {
+    width: 90%;
+    margin: 0 auto;
+
+    .productTitle {
+      text-align: center;
+      padding: 10px;
+      width: 100px;
+      margin: 0 auto;
+      background-color: $color-darkRed;
+    }
+
+    .slider-list {
+      margin: 20px 0 50px;
+
+      .product-container {
+        width: 75%;
+        list-style: none;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 15px;
+        background-color: $color-darkRed;
+
+        .image {
+          margin-right: 10px;
+          width: 25%;
+          float: left;
+        }
+
+        .product-detail {
+          font-size: 13px;
+          float: left;
+          width: 70%;
+
+          .productStatus {
+            background-color: $color-Red;
+            padding: 5px 10px;
+            letter-spacing: 3px;
+          }
+
+          .productCategory {
+            margin: 10px 0 0;
+            font-size: 11px;
+          }
+
+          .productTitle {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 10px 0;
+          }
+
+          .productInfo {
+            font-size: 11px;
+          }
+        }
+      }
+    }
+  }
+}

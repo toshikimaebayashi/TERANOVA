@@ -1,0 +1,321 @@
+@charset "UTF-8";
+body {
+  max-width: 420px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #fff;
+  background: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+figure.image {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* Tabコンポーネントのスタイル */
+.tabs {
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+}
+.tabs .tablist {
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 10px;
+  padding: 0;
+}
+.tabs .tablist .tab {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.tabs .tablist .tab.-selected {
+  background-color: #fff;
+  border-color: #ccc;
+  color: #000;
+  border-radius: 5px 5px 0 0;
+}
+.tabs .tablist .tab.-disabled {
+  color: GrayText;
+  cursor: default;
+}
+.tabs .tablist .tab:focus {
+  box-shadow: 0 0 5px #0188fe;
+  border-color: #0188fe;
+  outline: none;
+}
+.tabs .tablist .tab:focus::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background-color: #fff;
+}
+.tabs .tablist .tab-panel {
+  display: none;
+}
+.tabs .tablist .tab-panel.-selected {
+  display: block;
+  padding: 30px 10px 0;
+  clear: both;
+  overflow: hidden;
+}
+
+/* About要素の背景ブロック */
+.explainBlock {
+  padding: 20px;
+  font-weight: bold;
+  color: #333;
+  background: linear-gradient(
+    163deg,
+    #dad9d6 0%,
+    #e6e8e6 50%,
+    #d8d8d2 51%,
+    #9e9e9b 100%
+  );
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 10px solid #9e9e9b;
+  border-right: 4px solid #bfbebc;
+  border-left: 4px solid #bfbebc;
+  border-top: 7px solid #dad9d6;
+}
+
+.act-button {
+  padding: 10px 20px;
+  border: 3px solid;
+}
+
+.bottom-btn {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* TopContainerの各要素の見出し */
+.headline {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Aboutコンポーネント独自のスタイル */
+.About .about-container {
+  font-size: 16px;
+  margin: 10px auto 50px;
+}
+.About .about-container .aboutTitle {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: bold;
+}
+.About .howToUse-container {
+  margin: 50px 0;
+}
+.About .howToUse-container .list-box .list-item {
+  padding-left: 30px;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+.About .howToUse-container .list-box .list-item:last-child {
+  margin-bottom: 0;
+}
+.About .howToUse-container .list-box .list-item .listTitle {
+  color: #0dd7ef;
+  font-size: 21px;
+  margin-bottom: 5px;
+  position: relative;
+}
+.About .howToUse-container .list-box .list-item .listTitle::before {
+  background-color: #333;
+  border-radius: 12px;
+  content: "\f00c";
+  color: #fff;
+  font-size: 13px;
+  position: absolute;
+  left: -33px;
+  top: 3px;
+  padding: 5px;
+}
+
+/* TOPコンポーネントの独自のスタイル */
+.Top .topic-container {
+  border: solid 3px #fff;
+  padding: 20px;
+  border-radius: 7px;
+}
+.Top .topic-container .topic-news {
+  display: flex;
+  margin-bottom: 10px;
+}
+.Top .topic-container .topic-news:last-child {
+  margin-bottom: 0;
+}
+.Top .topic-container .topic-news .newsDay {
+  margin-right: 33px;
+}
+.Top .works-container {
+  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
+  padding: 20px 0;
+  overflow: hidden;
+  overflow-y: hidden;
+}
+.Top .works-container .scroll-list {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin: 25px 0 25px;
+}
+.Top .works-container .scroll-list .scroll-item {
+  display: inline-block;
+  width: 90px;
+  padding: 10px;
+  background-color: #ccc;
+  margin-right: 15px;
+}
+.Top .works-container .scroll-list .scroll-item:first-child {
+  margin-left: 10px;
+}
+
+/* Lectureコンポーネント独自のスタイル */
+.Lecture .product-list {
+  width: 90%;
+  margin: 0 auto;
+}
+.Lecture .product-list .productTitle {
+  text-align: center;
+  padding: 10px;
+  width: 100px;
+  margin: 0 auto;
+  background-color: #636060;
+}
+.Lecture .product-list .slider-list {
+  margin: 20px 0 50px;
+}
+.Lecture .product-list .slider-list .product-container {
+  width: 75%;
+  list-style: none;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 15px;
+  background-color: #636060;
+}
+.Lecture .product-list .slider-list .product-container .image {
+  margin-right: 10px;
+  width: 25%;
+  float: left;
+}
+.Lecture .product-list .slider-list .product-container .product-detail {
+  font-size: 13px;
+  float: left;
+  width: 70%;
+}
+.Lecture
+  .product-list
+  .slider-list
+  .product-container
+  .product-detail
+  .productStatus {
+  background-color: red;
+  padding: 5px 10px;
+  letter-spacing: 3px;
+}
+.Lecture
+  .product-list
+  .slider-list
+  .product-container
+  .product-detail
+  .productCategory {
+  margin: 10px 0 0;
+  font-size: 11px;
+}
+.Lecture
+  .product-list
+  .slider-list
+  .product-container
+  .product-detail
+  .productTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.Lecture
+  .product-list
+  .slider-list
+  .product-container
+  .product-detail
+  .productInfo {
+  font-size: 11px;
+}
+
+/* Questionコンポーネントの独自のスタイル */
+.Question .form-container .form-list .form-item {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.Question .form-container .form-list input,
+.Question .form-container .form-list textarea {
+  border: 1px solid #ccc;
+  display: block;
+  width: 90%;
+  padding: 10px 20px;
+  border-radius: 0;
+  margin-top: 15px;
+}
+.Question .form-container .formSubmit {
+  border: none;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
