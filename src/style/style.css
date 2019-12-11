@@ -98,13 +98,7 @@ img {
   padding: 20px;
   font-weight: bold;
   color: #333;
-  background: linear-gradient(
-    163deg,
-    #dad9d6 0%,
-    #e6e8e6 50%,
-    #d8d8d2 51%,
-    #9e9e9b 100%
-  );
+  background: linear-gradient(163deg, #dad9d6 0%, #e6e8e6 50%, #d8d8d2 51%, #9e9e9b 100%);
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-bottom: 10px solid #9e9e9b;
   border-right: 4px solid #bfbebc;
@@ -120,34 +114,34 @@ img {
 }
 
 /* Aboutコンポーネント独自のスタイル */
-.About .about-container {
+.about .about-container {
   font-size: 16px;
   margin: 10px auto 50px;
 }
-.About .about-container .aboutTitle {
+.about .about-container .aboutTitle {
   text-align: center;
   margin-bottom: 20px;
   font-size: 21px;
   font-weight: bold;
 }
-.About .howToUse-container {
+.about .howToUse-container {
   margin: 50px 0;
 }
-.About .howToUse-container .list-box .list-item {
+.about .howToUse-container .list-box .list-item {
   padding-left: 30px;
   margin-bottom: 20px;
   font-size: 13px;
 }
-.About .howToUse-container .list-box .list-item:last-child {
+.about .howToUse-container .list-box .list-item:last-child {
   margin-bottom: 0;
 }
-.About .howToUse-container .list-box .list-item .listTitle {
+.about .howToUse-container .list-box .list-item .listTitle {
   color: #0dd7ef;
   font-size: 21px;
   margin-bottom: 5px;
   position: relative;
 }
-.About .howToUse-container .list-box .list-item .listTitle::before {
+.about .howToUse-container .list-box .list-item .listTitle::before {
   background-color: #333;
   border-radius: 12px;
   content: "\f00c";
@@ -160,61 +154,61 @@ img {
 }
 
 /* TOPコンポーネントの独自のスタイル */
-.Top .topic-container {
+.top .topic-container {
   border: solid 3px #fff;
   padding: 20px;
   border-radius: 7px;
 }
-.Top .topic-container .topic-news {
+.top .topic-container .topic-news {
   display: flex;
   margin-bottom: 10px;
 }
-.Top .topic-container .topic-news:last-child {
+.top .topic-container .topic-news:last-child {
   margin-bottom: 0;
 }
-.Top .topic-container .topic-news .newsDay {
+.top .topic-container .topic-news .newsDay {
   margin-right: 33px;
 }
-.Top .works-container {
+.top .works-container {
   border-bottom: 2px solid #fff;
   border-top: 2px solid #fff;
   padding: 20px 0;
   overflow: hidden;
   overflow-y: hidden;
 }
-.Top .works-container .scroll-list {
+.top .works-container .scroll-list {
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
   margin: 25px 0 25px;
 }
-.Top .works-container .scroll-list .scroll-item {
+.top .works-container .scroll-list .scroll-item {
   display: inline-block;
   width: 90px;
   padding: 10px;
   background-color: #ccc;
   margin-right: 15px;
 }
-.Top .works-container .scroll-list .scroll-item:first-child {
+.top .works-container .scroll-list .scroll-item:first-child {
   margin-left: 10px;
 }
 
 /* Lectureコンポーネント独自のスタイル */
-.Lecture .product-list {
+.lecture .product-list {
   width: 90%;
   margin: 0 auto;
 }
-.Lecture .product-list .productTitle {
+.lecture .product-list .productTitle {
   text-align: center;
   padding: 10px;
   width: 100px;
   margin: 0 auto;
   background-color: #636060;
 }
-.Lecture .product-list .slider-list {
+.lecture .product-list .slider-list {
   margin: 20px 0 50px;
 }
-.Lecture .product-list .slider-list .product-container {
+.lecture .product-list .slider-list .product-container {
   width: 75%;
   list-style: none;
   margin: 0 auto;
@@ -222,63 +216,43 @@ img {
   padding: 15px;
   background-color: #636060;
 }
-.Lecture .product-list .slider-list .product-container .image {
+.lecture .product-list .slider-list .product-container .image {
   margin-right: 10px;
   width: 25%;
   float: left;
 }
-.Lecture .product-list .slider-list .product-container .product-detail {
+.lecture .product-list .slider-list .product-container .product-detail {
   font-size: 13px;
   float: left;
   width: 70%;
 }
-.Lecture
-  .product-list
-  .slider-list
-  .product-container
-  .product-detail
-  .productStatus {
+.lecture .product-list .slider-list .product-container .product-detail .productStatus {
   background-color: red;
   padding: 5px 10px;
   letter-spacing: 3px;
 }
-.Lecture
-  .product-list
-  .slider-list
-  .product-container
-  .product-detail
-  .productCategory {
+.lecture .product-list .slider-list .product-container .product-detail .productCategory {
   margin: 10px 0 0;
   font-size: 11px;
 }
-.Lecture
-  .product-list
-  .slider-list
-  .product-container
-  .product-detail
-  .productTitle {
+.lecture .product-list .slider-list .product-container .product-detail .productTitle {
   font-size: 16px;
   font-weight: bold;
   margin: 10px 0;
 }
-.Lecture
-  .product-list
-  .slider-list
-  .product-container
-  .product-detail
-  .productInfo {
+.lecture .product-list .slider-list .product-container .product-detail .productInfo {
   font-size: 11px;
 }
 
 /* Questionコンポーネントの独自のスタイル */
-.Question .form-container .form-list .form-item {
+.question .form-container .form-list .form-item {
   margin-bottom: 30px;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
 }
-.Question .form-container .form-list input,
-.Question .form-container .form-list textarea {
+.question .form-container .form-list input,
+.question .form-container .form-list textarea {
   border: 1px solid #ccc;
   display: block;
   width: 90%;
@@ -286,7 +260,7 @@ img {
   border-radius: 0;
   margin-top: 15px;
 }
-.Question .form-container .formSubmit {
+.question .form-container .formSubmit {
   border: none;
   width: 25%;
   margin: 0 auto;
@@ -307,5 +281,3 @@ img {
 .mt50 {
   margin-top: 50px;
 }
-
-/*# sourceMappingURL=style.css.map */
