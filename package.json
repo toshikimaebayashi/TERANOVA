@@ -7,7 +7,8 @@
   "private": false,
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "css/sass": "node-sass src/style/sass/style.scss -o dist/style --output-style expanded --source-map dist/assets/css"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
@@ -16,6 +17,7 @@
     "babel-loader": "^8.0.4",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-tabs": "^3.0.0",
