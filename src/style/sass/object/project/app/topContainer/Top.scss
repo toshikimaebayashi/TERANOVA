@@ -1,0 +1,51 @@
+@import "../../../../extention/color";
+
+/* TOPコンポーネントの独自のスタイル */
+
+.top {
+  .topic-container {
+    border: solid 3px $color-white;
+    padding: 20px;
+    border-radius: 7px;
+
+    .topic-news {
+      display: flex;
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .newsDay {
+        margin-right: 33px;
+      }
+    }
+  }
+
+  .works-container {
+    border-bottom: 2px solid $color-white;
+    border-top: 2px solid $color-white;
+    padding: 20px 0;
+    overflow: hidden;
+    overflow-y: hidden;
+
+    .scroll-list {
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+      margin: 25px 0 25px;
+
+      .scroll-item {
+        display: inline-block;
+        width: 90px;
+        padding: 10px;
+        background-color: $color-lightGray;
+        margin-right: 15px;
+
+        &:first-child {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

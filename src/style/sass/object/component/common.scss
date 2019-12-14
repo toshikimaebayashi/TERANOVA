@@ -1,0 +1,23 @@
+@import "../../extention/color";
+
+/* About要素の背景ブロック */
+
+.explainBlock {
+  padding: 20px;
+  font-weight: bold;
+  color: #333;
+  background: linear-gradient(163deg, #dad9d6 0%, #e6e8e6 50%, #d8d8d2 51%, #9e9e9b 100%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 10px solid #9e9e9b;
+  border-right: 4px solid #bfbebc;
+  border-left: 4px solid #bfbebc;
+  border-top: 7px solid #dad9d6;
+}
+
+/* TopContainerの各要素の見出し */
+
+.headline {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}

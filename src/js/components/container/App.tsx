@@ -11,9 +11,7 @@ export default class App extends Component {
 
     return (
       <div className="app">
-        <div className="top-container">
-          <TopContainer />
-        </div>
+        <TopContainer />
         <Bottom />
       </div>
     );
